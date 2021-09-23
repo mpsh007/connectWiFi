@@ -8,8 +8,6 @@ pipeline {
             steps {
                     sh "docker build -t connectwifi ."
                 }
-                
-            }
         }
         
         stage('Run'){
