@@ -7,6 +7,6 @@ RUN apt-get update && apt-get install -y openjdk-16-jre && apt-get install -y ne
 
 WORKDIR /usr/Documents/
 
-COPY ./connectWiFi.jar /usr/Documents/connectWiFi.jar
+COPY connectWiFi.jar /usr/Documents/connectWiFi.jar
 
 CMD ["java", "-jar", "/usr/Documents/connectWiFi.jar"]
